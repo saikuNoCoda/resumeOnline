@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { AiFillGithub,AiFillLinkedin, FiInstagram,FaTwitter } from 'react-icons/all';
+import { linksData } from '../data/data'
 
 const Header = () => {
     return (
@@ -15,10 +16,10 @@ const Header = () => {
                 <Col style={{textAlign: "right"}} className="mx-5">
                     <div className="bg-white" style={{textAlign: "center"}}>
                         <Container className="my-3">
-                            <AiFillGithub size={50} className="mx-1"/>
-                            <AiFillLinkedin size={50} className="mx-1"/>
-                            <FiInstagram size={50} className="mx-1"/>
-                            <FaTwitter size={50} className="mx-1"/>
+                            <a href={linksData.github} style={{color: "black"}} target="_blank"><AiFillGithub size={50} className="mx-1"/></a>
+                            <a href={linksData.linkedln} style={{color: "black"}} target="_blank"><AiFillLinkedin size={50} className="mx-1"/></a>
+                            <a href={linksData.instagram} style={{color: "black"}} target="_blank"><FiInstagram size={50} className="mx-1"/></a>
+                            <a href={linksData.twitter} style={{color: "black"}} target="_blank"><FaTwitter size={50} className="mx-1"/></a>
                         </Container>
                         <p>Email: <b>divyanshverma12@gmail.com</b></p>
                     </div>

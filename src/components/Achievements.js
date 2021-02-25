@@ -1,35 +1,33 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container,Row,Col,Badge } from 'react-bootstrap';
-import { expData } from '../data/data'
+import { achieveData } from '../data/data'
 
-const Experience = () => {
+const Education = () => {
     return (
         <div className="mt-5">
             <Container style={{textAlign: "center"}}>
-                <p style={{fontSize: "30px"}}>Experience</p>
+                <p style={{fontSize: "30px"}}>Achievements</p>
             </Container>
-                    
+
             <Row className="mx-3"> 
             <Col md={2}></Col>
             <Col md={8} style={{textAlign: "center", borderTopStyle: "dotted" }}>
             </Col>
             <Col md={2}></Col>
             </Row>
-
+            
             {
-                expData.map(exp => (
-                    <Row className="mx-3 mt-3"> 
+                achieveData.map(achieve => (
+                    <Row className="mx-3"> 
                     <Col md={2}></Col>
                     <Col md={8} style={{textAlign: "center"}}>
                         <Container className="mt-3">
                             <Row>
                                 <Col md={4}>
-                                    <h3>{exp.name}</h3>   
-                                    <h5>{exp.post}</h5>
-                                    <p><i>{exp.time}</i></p>
+                                    <h5><Badge variant="secondary">{achieve.heading}</Badge></h5>   
                                 </Col>
                                 <Col md={8} style={{textAlign: "left"}}>
-                                    {exp.work}
+                                    <p style={{fontSize: "20px"}}>{achieve.detail}</p>
                                 </Col>
                             </Row>
                         </Container>
@@ -38,9 +36,9 @@ const Experience = () => {
                     </Row>
                 ))
             }
-    
+
         </div>
     );
 };
 
-export default Experience;
+export default Education;
