@@ -121,7 +121,7 @@ const expData = [
 ]
 
 const notData = {
-    main: "When I’m not sat at my desk, you can find me playing Table Tennis or watching anime. I'm a big anime fan, I can watch or even discuss about anime for hours may be even for days :P. My favourite animes include Demon Slayer, Assasination Classroom, Haikyuu etc. Other than that I'm really into competitive coding and actively participate in competitive coding competitions on codechef, codeforces and hackerrank.",
+    main: "When I’m not at my desk, you can find me playing Table Tennis or watching anime. I'm a big anime fan, I can watch or even discuss about anime for hours may be even for days :P. My favourite animes include Demon Slayer, Assasination Classroom, Haikyuu etc. Other than that I'm really into competitive coding and actively participate in competitive coding competitions on codechef, codeforces and hackerrank.",
     implinks: [
         {
             name: "Codeforces Profile",
