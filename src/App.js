@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Education from './components/Education'
 import Extra from './components/Extra'
 import Achievements from './components/Achievements'
+import Ending from './components/Ending'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Education />
       <Achievements />
       <Extra />
+      <Ending />
     </div>
   );
 }
