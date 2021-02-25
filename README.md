@@ -3,9 +3,7 @@ A Naive Kind of clone of https://github.com/sproogen/modern-resume-theme using R
 
 ### Link to Demo
 https://divyanshverma.netlify.app/
-
-
-
+![Example](https://github.com/failedcoder12/resumeOnline/blob/master/Demo.png?raw=true)
 ### `npm start`
 
 Runs the app in the development mode.\
