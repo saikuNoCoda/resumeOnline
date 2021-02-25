@@ -15,7 +15,13 @@ Go to '/src/data/data.js'. You can see there are defined constants where you can
 
 Requires `npm node create-react-app`
 First run `npm install`
-Then use `npm start`
+Then use `npm start` after cloning repo.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### Message
+If you want it to have any more features or some bug fixes, Feel free to contact me on linkedln (https://www.linkedin.com/in/divyanshvermafc/)
+
+### For Deployment
+You can use Netlify(https://www.netlify.com/)
