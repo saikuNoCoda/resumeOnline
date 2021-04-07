@@ -1,7 +1,7 @@
 const linksData = {
     github: "https://github.com/failedcoder12",
     linkedln: "https://www.linkedin.com/in/divyanshvermafc/",
-    instagram: "https://www.instagram.com/failed___coder/",
+    instagram: "https://www.instagram.com/saikunocoda/",
     twitter: "https://twitter.com/DivyanshVerma2",
 };
 
@@ -106,6 +106,12 @@ const achieveData = [
 ]
 
 const expData = [
+    {
+        name: "Google",
+        post: "Software Engineer",
+        time: "Mar 2020 - Present",
+        work: "Part of Google Pay team."
+    },
     {
         name: "Myntra",
         post: "Data Sciences Engineering",
