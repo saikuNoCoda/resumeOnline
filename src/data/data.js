@@ -25,7 +25,7 @@ const projectData = [
     {
         name: "Wave Flume Analyzer",
         link: "https://github.com/failedcoder12/Wave-Flume-Analyser",
-        heading: "Wave Flume Analyses (Amplitute, Frequency and other stuffs) using Image Processing (Thresholding, Canny Edge Setection)",
+        heading: "Wave Flume Analyses (Amplitute, Frequency and other stuffs) using Image Processing",
         explanation: "This project includes analysis of frequency,amplitude, phase of a wave using image processing techniques in different daylight conditions. This project was used as an alternative for expensive wave flume analyzer which costs 10x more that this project.",
         techs: [
             "python",
