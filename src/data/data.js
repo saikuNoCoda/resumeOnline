@@ -110,7 +110,7 @@ const expData = [
         name: "Google",
         post: "Software Engineer",
         time: "Mar 2020 - Present",
-        work: "Part of Google Pay team."
+        work: "Working as a Software Engineer. Part of Google Pay team."
     },
     {
         name: "Myntra",
@@ -149,6 +149,14 @@ const notData = {
             name: "Prep Talks",
             link: "https://preptalks.netlify.app/",
         },
+        {
+            name: "GoodReads Profile",
+            link: "https://www.goodreads.com/saikunocoda",
+        },
+        {
+            name: "My Anime List",
+            link: "https://myanimelist.net/animelist/saikuNoCoda",
+        }
     ]
 }
 
