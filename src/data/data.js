@@ -1,6 +1,6 @@
 const linksData = {
-    github: "https://github.com/failedcoder12",
-    linkedln: "https://www.linkedin.com/in/divyanshvermafc/",
+    github: "https://github.com/saikuNoCoda",
+    linkedln: "https://www.linkedin.com/in/saikunocoda/",
     instagram: "https://www.instagram.com/saikunocoda/",
     twitter: "https://twitter.com/DivyanshVerma2",
 };
