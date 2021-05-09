@@ -7,7 +7,7 @@ const linksData = {
 
 
 const aboutData = {
-    bio: "Hi, my name is Divyansh Verma, I'm a Software Engineer with 8 months of experience. I am currently working for Myntra as a Data Science Engineer for their Size and Fit services. I really love competitive programming and also developing web apps.\n I have worked with a range of different languages and frameworks and always looking for opportunities to work with something new. The things that I have the most experience working are: ",
+    bio: "Hi, my name is Divyansh Verma, I'm a Software Engineer with 8 months of experience. I am currently working at Google as a Software Engineer in Google Pay. I really love competitive programming and also developing web apps.\n I have worked with a range of different languages and frameworks and always looking for opportunities to work with something new. The things that I have the most experience working are: ",
     skills: [
         "C++",
         "Java",
