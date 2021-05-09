@@ -24,7 +24,7 @@ const aboutData = {
 const projectData = [
     {
         name: "Wave Flume Analyzer",
-        link: "https://github.com/failedcoder12/Wave-Flume-Analyser",
+        link: "github.com/failedcoder12/Wave-Flume-Analyser",
         heading: "Wave Flume Analyses (Amplitute, Frequency and other stuffs) using Image Processing",
         explanation: "This project includes analysis of frequency,amplitude, phase of a wave using image processing techniques in different daylight conditions. This project was used as an alternative for expensive wave flume analyzer which costs 10x more that this project.",
         techs: [
@@ -35,7 +35,7 @@ const projectData = [
     },
     {
         name: "Lipstick Personalization",
-        link: "https://bitbucket.org/divyansh_300070948/lipstick-personalization/",
+        link: "bitbucket.org/divyansh_300070948/lipstick-personalization/",
         heading: "Using user image to recommend lipstick shades",
         explanation: "Given an input image of a user (containing face), analyse the skin tone & recommend different shades of lipstick based on it. We have used MediaPipe framework to detect cheek and lips region. Internally MediaPipe uses Machine Learning(custom ResNet CNN model) to infer a 3-D surface geometry. Then using KNN we predict the lipstick for user skintone comparing it with some celebs skin tone and their lipstick color preference.",
         techs: [
@@ -45,7 +45,7 @@ const projectData = [
     },
     {
         name: "Detecting Anomalies in Streaming Graphs",
-        link: "https://github.com/failedcoder12",
+        link: "github.com/failedcoder12",
         heading: "Detection of anomalies",
         explanation: "This project help in detection of anomalies (port scan or denial of service attacks) in an IP-IP communication using Spotlight algorithm. This is based on approximations and induced subgraphs on a particular graphs. This algorithm creates sketches of subgraph which basically measures density of a particular induced subgraph and used K such subgraphs as an approximation of original graph.",
         techs: [
